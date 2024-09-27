@@ -10,6 +10,9 @@ import {
 import { ClientProxy } from '@nestjs/microservices';
 import { CreateUserDto } from './dto/CreateUser.dto';
 
+/**
+ * Footer component
+ */
 @Controller('users')
 export class UsersController {
   private readonly logger = new Logger(UsersController.name);
